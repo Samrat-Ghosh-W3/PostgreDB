@@ -18,3 +18,15 @@ or create Database which
   port: 5432,
   
   Then run in port 3000
+
+
+
+CREATE TABLE weather(
+   city:character(50),
+   high:integer(20),
+   low: integer(20)
+);
+
+INSERT INTO weather (city, high, low)
+VALUES ("dhaka", 27, 18);
+
