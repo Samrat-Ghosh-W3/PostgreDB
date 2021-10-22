@@ -25,11 +25,11 @@ or create Database which
 
 CREATE TABLE weather(
 
-   city:character(50),
+   city: character(50),
    
-   high:integer(20),
+   high: integer(20),
    
-   low: integer(20)
+   low:  integer(20)
    
 );
 
